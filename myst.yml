@@ -1,0 +1,20 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Introduction
+  # description:
+  keywords: []
+  authors: []
+  # github:
+  # bibliography: []
+  license: CC-BY-4.0
+site:
+  template: book-theme
+  title: Notebooks Now! Submission Guide
+  logo: AGU-logo.png
+  logo_text: Notebooks Now! Submission Guide
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []
