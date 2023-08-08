@@ -28,6 +28,7 @@ parts:
       - file: push-to-github.md
       - file: pdf-preview.md
       - file: metadata.md
+      - file: submitting.md
   - caption: Reference
     chapters:
       - file: why.md
