@@ -1,5 +1,6 @@
 ---
 title: Why Notebooks
+subject: Reference
 ---
 
 Computational Notebooks allow for code and narative to be combined into a single document with a linear flow. Notebooks are commonly used in at different times in research work for tasks such as data review and clean up, exploratory analysis and visualsation, creation of interactive mini-apps or widgets and for preparing figures for a final manuscript. In each case, notebooks allow additional rich documentation and explanation to be added arouns code cells and their outputs making for a document that stands up better than source code alone.

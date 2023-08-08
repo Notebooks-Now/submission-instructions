@@ -1,0 +1,44 @@
+.
+├── .github
+│   └── workflows
+│       └── deploy.yml
+├── .gitignore
+├── README.md
+├── _toc.yml
+├── article.md
+├── data
+│   ├── catalogoComunSV_1663233588717.csv
+│   └── lapalma_ign.csv
+├── environment.yml
+├── images
+│   ├── banner.png
+│   ├── la-palma-eruption-2022-paper.png
+│   ├── la-palma-map.png
+│   ├── reservoirs.png
+│   └── stations.png
+├── myst.yml
+├── notebooks
+│   ├── data-screening.ipynb
+│   ├── seismic-monitoring.md
+│   └── visualization-figure-creation-seaborn.ipynb
+└── references.bib
+
+
+
+.
+├── _toc.yml
+├── article.md
+├── images
+│   ├── banner.png
+│   ├── la-palma-eruption-2022-paper.png
+│   ├── la-palma-map.png
+│   ├── reservoirs.png
+│   └── stations.png
+├── myst.yml
+├── notebooks
+│   ├── data-screening.ipynb
+│   ├── seismic-monitoring.md
+│   └── visualization-figure-creation-seaborn.ipynb
+└── references.bib
+
+

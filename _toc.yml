@@ -22,12 +22,15 @@ parts:
     chapters:
       - file: getting-started.md
       - file: setup.md
-      - file: environment.md
+      - file: structure.md
       - file: authoring.md
+      - file: environment.md
+      - file: push-to-github.md
       - file: pdf-preview.md
       - file: metadata.md
   - caption: Reference
     chapters:
       - file: why.md
       - file: templates.md
-      - file: portability.md
+      - file: reproducible-environments.md
+      - file: best-practices.md

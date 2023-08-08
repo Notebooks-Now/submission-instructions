@@ -1,6 +1,5 @@
 ---
-title: Reproducible Environment
-short_title: Environment
+title: Computational Environment
 subject: Preparing your submission
-venue: Reproducible Environment
+venue: Computational Environment
 ---

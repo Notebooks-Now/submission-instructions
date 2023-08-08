@@ -8,6 +8,10 @@ project:
   # github:
   # bibliography: []
   license: CC-BY-4.0
+  abbreviations:
+    AGU: American Geophysical Union
+    NN: Notebooks Now
+    REES: Reproducible Execution Environment Specification
 site:
   template: book-theme
   title: Notebooks Now! Submission Guide

@@ -1,0 +1,79 @@
+.
+├── .github
+│   └── workflows
+│       └── publish.yml
+├── .gitignore
+├── .luarc.json
+├── README.md
+├── _extensions
+│   └── quarto-journals
+│       └── agu
+│           ├── _extension.yml
+│           ├── agu.lua
+│           ├── agujournal2019.cls
+│           ├── american-geophysical-union.csl
+│           ├── partials
+│           │   ├── _affiliations.tex
+│           │   ├── _authors.tex
+│           │   ├── _corresponding-author.tex
+│           │   ├── before-body.tex
+│           │   └── title.tex
+│           └── trackchanges.sty
+├── _quarto.yml
+├── apt.txt
+├── article.qmd
+├── data
+│   ├── catalogoComunSV_1663233588717.csv
+│   └── lapalma_ign.csv
+├── environment.yml
+├── images
+│   ├── la-palma-eruption-2022-paper.png
+│   ├── la-palma-map.png
+│   ├── reservoirs.png
+│   └── stations.png
+├── notebooks
+│   ├── data-screening.ipynb
+│   ├── seismic-monitoring-stations.qmd
+│   └── visualization-figure-creation-seaborn.ipynb
+├── postBuild
+└── references.bib
+
+
+
+
+.
+├── .luarc.json
+├── README.md
+├── _extensions
+│   └── quarto-journals
+│       └── agu
+│           ├── _extension.yml
+│           ├── agu.lua
+│           ├── agujournal2019.cls
+│           ├── american-geophysical-union.csl
+│           ├── partials
+│           │   ├── _affiliations.tex
+│           │   ├── _authors.tex
+│           │   ├── _corresponding-author.tex
+│           │   ├── before-body.tex
+│           │   └── title.tex
+│           └── trackchanges.sty
+├── _quarto.yml
+├── article.qmd
+├── data
+│   ├── catalogoComunSV_1663233588717.csv
+│   └── lapalma_ign.csv
+├── images
+│   ├── la-palma-eruption-2022-paper.png
+│   ├── la-palma-map.png
+│   ├── reservoirs.png
+│   └── stations.png
+├── notebooks
+│   ├── data-screening.ipynb
+│   ├── seismic-monitoring-stations.qmd
+│   └── visualization-figure-creation-seaborn.ipynb
+├── postBuild
+└── references.bib
+
+
+

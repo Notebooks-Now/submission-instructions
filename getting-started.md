@@ -22,9 +22,10 @@ For more information on the single notebook approach see the "lite" templates in
 Following the steps below will take you though the main aspects of preparing your submission.
 
 1. [Repository Setup](setup) - clone a template and add your content
+1. [Review Repository Structure](structure) - understand the repository contents, where content and configuration files can be changed
 1. [Your Reproducible Environment](environment) - add your project's dependencies
 1. [Authoring & Preview](authoring) - write, develop notebooks and preview your changes
-1. [PDF Preview]() - export manuscript to a PDF
-1. Add Scholarly Metadata - TBD
-1. {del}`Add JATS & MECA configuration` - TBD
-1. Submission - Automated checks and final build - TBD
+1. [PDF Preview](pdf-preview) - export manuscript to a PDF
+1. [Add Metadata](metadata) - add machine readable scholarly and submission metadata to your project
+1. {del}`Add JATS & MECA configuration`
+1. Submission - Automated checks and final build
