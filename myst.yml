@@ -12,6 +12,7 @@ project:
     AGU: American Geophysical Union
     NN: Notebooks Now
     REES: Reproducible Execution Environment Specification
+    IDE: Integrated Development Environment
 site:
   template: book-theme
   title: Notebooks Now! Submission Guide
