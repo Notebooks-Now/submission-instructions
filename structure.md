@@ -8,6 +8,8 @@ A submission repository has a number of expected configuration files, content fi
 
 Let's review and get familar with the various elements.
 
+## Toolchain specific elements
+
 ::::{tab-set}
 :::{tab-item} MyST Markdown
 
@@ -41,7 +43,7 @@ Let's review and get familar with the various elements.
 └── references.bib
 ```
 
-### MyST Markdown specific elements
+**MyST Markdown specific elements**
 
 `myst.yml`
 : The main MyST configuration file - this configures the MyST project and [web based paper](https://mystmd.org/guide/quickstart-myst-websites#configuration) and is the place to add [frontmatter](https://mystmd.org/guide/frontmatter) including all scholarly metadata.
@@ -97,7 +99,7 @@ Let's review and get familar with the various elements.
 └── references.bib
 ```
 
-### Quarto specific elements
+**Quarto specific elements**
 
 `_quarto.yml`
 : The main Quarto project configuration file.
