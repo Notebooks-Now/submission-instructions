@@ -39,7 +39,7 @@ Submission templates are available via the [Notebooks Now! GitHub Organisation (
 
 🛠 Make a local working copy of your repository
 
-How you create a local clone of your repository depends on how you are used to working with `git`. Assuming that you are using the `git` command line and have `ssh` configured
+How you create a local clone of your repository depends on how you are used to working with `git`. Assuming that you are using the `git` command line and have `ssh` configured:
 
 - copy the `ssh` clone URI from GitHub (as shown above)
 - Open a terminal or command prompt and navigate to a suitable working folder

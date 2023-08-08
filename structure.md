@@ -125,7 +125,7 @@ The following elements are present independent of the authoring toolchain used i
 : The template repositories use a standard `conda` environment file for loading python dependencies. If you are using `python` and `conda` then we describe updating this file in [Environment](environment) otherwise any set of [Reproducible Execution Environment Specification (REES)](reproducible environments) files can be used to configure your repository as needed. REES ensures that any `binderhub` instance can provide a properly configured Jupyter server with required dependencies to reviewers and readers. (Note: the Quarto templates already include an additional REES files `apt.txt`, `postBuild`),
 
 `data/`
-: Whether to providing data files directly in your submission repository should be carefully considered versus publishing these separately in a suitable data repository. For more on this topic see [Best Practices](best-practices).
+: Whether to provide data files directly in your submission repository should be carefully considered versus publishing these separately in a suitable data repository. For more on this topic see [Best Practices](best-practices).
 
 `.gitignore`
 : A standard git ignore file allowing you to exclude local files from your submission. This is useful if your scripts or notebooks generate additional temporary files when they are run, for example downloaded data files, temporary result files. Customize this file to fit your needs [by adding ignore patters](https://git-scm.com/docs/gitignore).
