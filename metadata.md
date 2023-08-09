@@ -11,6 +11,6 @@ This page should:
 
 * explain which metadata is required and it's format
 * explain how to add that metadata, with examples for both MyST Markdown and Quarto
-* explain any jats & meca specific setup that is required
+* explain any JATS & MECA specific setup that is required
 
 ```

@@ -13,6 +13,29 @@ project:
     NN: Notebooks Now
     REES: Reproducible Execution Environment Specification
     IDE: Integrated Development Environment
+    DOI: Digital Object Identifier
+    MyST: Markedly Structured Text
+    CLI: Command Line Interface
+    HTML: Hypertext Markup Language
+    PDF: Portable Document Format
+    RRID: Research Resource Identifier
+    CRediT: Contributor Roles Taxonomy
+    ROR: Research Organization Registry
+    ISNI: International Standard Name Identifier
+    NISO: National Information Standards Organization
+    YAML: Yet Another Markup Language
+    URL: Uniform Resource Locator
+    XML: Extensible Markup Language
+    PID: Persistent Identifier
+    ID: Identifier
+    JATS: Journal Article Tag Suite
+    MECA: Manuscript Exchange Common Approach
+    VoR: Version of Record
+    LTS: Long Term Support
+    SPDX: Software Package Data Exchange
+    API: Application Programming Interface
+    JSON: JavaScript Object Notation
+    OA: Open Access
 site:
   template: book-theme
   title: Notebooks Now! Submission Guide
@@ -21,6 +44,6 @@ site:
   nav: []
   actions:
     - title: Learn More
-      url: https://mystmd.org/guide
+      url: https://data.agu.org/notebooks-now/
   domains:
     - stevejpurves-nn_submission.curve.space

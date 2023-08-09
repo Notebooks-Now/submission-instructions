@@ -12,12 +12,12 @@ This workflow will be run on repository creation and on every subsequent commit 
 
 ```
 
-Where 1 previous run is listed and marked as failing. In order to publish the preview of your manuscript as a website GitHub pages must be manually enabled on your repository.
+Where the first run is listed and marked as failing. In order to publish the preview of your manuscript as a website GitHub pages must be enabled on your repository.
 
 🛠 To enable GitHub pages, go to `Settings`, and select `Pages` from the left hand sidebar. Then set `Source` to `GitHub Actions`.
 
 ```{figure} images/github-enable-pages.png
-
+Enable GitHub pages on your repository.
 ```
 
 🛠 To trigger a rebuild push a new commit to `main`
@@ -25,15 +25,15 @@ Where 1 previous run is listed and marked as failing. In order to publish the pr
 A second workflow run will appear and after a time, will complete and turn green ✅.
 
 ```{figure} images/github-action-success.png
-
+Add a new commit to the repository and the action should complete!
 ```
 
-## Examing preview builds
+## Examining preview builds
 
 Once the GitHub action successfully completes, the preview website for your article will be available at `https://<username>.github.io/<reponame>`. A preview of the sample content from the template looks like this.
 
 ```{figure} images/github-website-preview.png
-
+Preview of your website using MyST Markdown.
 ```
 
 You should see the primary (root) manuscript and be able to access all the notebooks and additional mardkown files under the `SUPPORTING DOCUMENTS` listing.

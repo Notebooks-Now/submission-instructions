@@ -13,10 +13,15 @@ To best support the authoring process, submissions can be prepared using the Jup
 
 Notebook based papers open up interesting new opportunities for researchers and authors, as a computational environment is always available alongside the manuscript, the purpose of the computational aspects of the paper can be considered. While full reproducibility of a paper may not be possible, steps to better communicate results and support understanding for readers can be made.
 
-Some motivations for using notebooks in your publication might be:
+Some motivations for using notebooks in your publication are:
 
-- Demonstrating reproducibility - where a reader can execute notebooks against your data or some subset of it, potentially varying some parameters
-- Enabling effecive reuse - providing an effective starting point for researchers to build on your work
-- Exploratory figures - augmenting static figures with interactive widgets, that allow readers to explore your data or results sets
+Demonstrate Reproducibility
+: where a reader can execute notebooks against your data or some subset of it, potentially varying some parameters
+
+Enabling Effective Reuse
+: providing an effective starting point for researchers to build on your work
+
+Exploratory Figures
+: augmenting static figures with interactive widgets, that allow readers to explore your data or results sets
 
 Additionally, the submission system behind the Notebooks Now! project allows you to **encode all your metadata once in your repository and automates the bulk of the submission process** for you, making submissions easier and faster.

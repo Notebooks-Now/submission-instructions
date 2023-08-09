@@ -54,7 +54,7 @@ Let's review and get familar with the various elements.
 :::
 :::{tab-item} Quarto
 
-```{code-block}
+```{code-block} bash
 :caption: Layout of a Quarto based submission repository, in this case generated from the [`submission-quarto-full`](https://github.com/Notebooks-Now/submission-quarto-full) template.
 :linenos:
 :emphasize-lines: 4,8,22,23,28,38
@@ -139,7 +139,7 @@ The image below shows the sample content and toolchain specific configuration fi
 ::::{tab-set}
 :::{tab-item} MyST Markdown
 
-```{code-block}
+```{code-block} bash
 :caption: Markdown (`.md`) and notebook (`.ipynb`) content alongside MyST Markdown specific configuration files.
 :linenos:
 :emphasize-lines: 3,4,11,15
@@ -163,7 +163,7 @@ The image below shows the sample content and toolchain specific configuration fi
 :::
 :::{tab-item} Quarto
 
-```{code-block}
+```{code-block} bash
 :caption: Markdown (`.qmd`) and notebook (`.ipynb`) content alongside Quarto specific configuration files.
 :linenos:
 :emphasize-lines: 5,9,14,19

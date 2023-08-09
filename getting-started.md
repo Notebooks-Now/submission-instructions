@@ -6,15 +6,34 @@ venue: Getting Started
 
 This guide will take you through the process of preparing your submission, from initial repository setup, through suggested authoring workflows to final submission checks and using the submission system.
 
-You will use one of the templates available in the [Notebooks Now GitHub Organization](https://github.com/notebooks-now). There are templates for single notebook submissions ("lite") and Markdown based manuscript submissions with linked notebooks ("full") for each of the supported tool chains.
+You will use one of the templates available in the [Notebooks Now GitHub Organization](https://github.com/notebooks-now). There are templates for single notebook submissions ("lite") and Markdown based manuscript submissions with linked notebooks ("full") for each of the supported tool chains. The goal of these template repositories is to serve the same purpose as a $\LaTeX$ submission template: something that authors can copy, delete content, and replace with their notebooks, data and articles.
 
-In this guide you will use the "full" template for MyST Markdown or Quarto.
+In this guide you will use the "full" template for MyST Markdown or Quarto. The full templates allow for notebooks that are focused on a specific aspect – for example, creating a figure – and the outputs of those notebooks to be reused in the scientific article ([](#articles-and-notebooks)).
 
-```{tip} Other Templates
+:::{figure} ./images/articles-and-notebooks.png
+:name: articles-and-notebooks
+The purple and orange components, interactive figure or other computational outputs, are created in a computational notebook and subsequently used in other narrative or presentation-focused scientific article.
+:::
+
+```{tip} Template Design
 :class: dropdown
-We've focussed on the "full" template as this gives the most freedom over the manuscript's narrative flow and avoids some of the difficulties encoountered when trying to compose the whole paper in a single notebook file.
 
-For more information on the single notebook approach see the "lite" templates in [Submission Templates](/templates).
+These notebooks are submission instruction notebooks, and should follow the following constraints:
+
+Metadata
+: Show all relevant metadata that is required for publishing.
+
+Speed & Dependencies
+: The instruction notebooks should be portable across different systems and be fast to run. These notebooks should be able to run easily on Binder.
+
+Realistic, but simple
+: The data and example content should resonate with a geoscientist, and also present a mix between submission instructions/features that are specific to AGU.
+
+There are four different example repositories for Python-based content: first, with a single notebook as the paper (similar to many Earthcube submissions, but with simplified content); second, a markdown document with multiple associated notebooks that do different components of a scientific workflow (e.g. data-cleaning, interrogation, figure generation, etc.).
+
+In this submission guide we have focussed on the "full" template as this gives the most freedom over the manuscript's narrative flow and avoids some of the difficulties encountered when trying to compose the whole paper in a single notebook file.
+
+For more information on the single notebook approach see the "lite" templates in [Submission Templates](./templates.md).
 ```
 
 ## Step by step

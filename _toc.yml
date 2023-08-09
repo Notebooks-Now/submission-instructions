@@ -33,3 +33,4 @@ parts:
       - file: why.md
       - file: templates.md
       - file: best-practices.md
+      - file: contributing.md
