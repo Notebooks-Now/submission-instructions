@@ -1,7 +1,7 @@
 ---
-title: Authoring & Preview
+title: Authoring
 subject: Preparing your submission
-venue: Authoring & Preview
+venue: Authoring
 ---
 
 Submissions in the Notebooks Now! formatcan be prepared using either of two popular open source toolchains [MyST Markdown](https://mystmd.org) and [Quarto](https://quarto.org). The submission system can recognise the configuration information of each tool and build the manuscript, PDFs and other publishing assets automatically.
@@ -130,8 +130,14 @@ In MyST Markdown, `parts` are blocks of content that have special roles and can 
 ```md
 +++ {"part":"abstract"}
 
-% The article should include an abstract block at the beginning. The block is delimited by `+++` before and after, and you must specify `"part": "abstract"` as JSON metadata on the block opener. This metadata is required for recognizing the content of this cell as the abstract.
-% The abstract should begin with a short description of the problem addressed, briefly describe the new data or analyses, then briefly state the main conclusion(s) and how they are supported, and address any uncertainty.
+% The article should include an abstract block at the beginning. 
+% The block is delimited by `+++` before and after, and you must 
+% specify `"part": "abstract"` as JSON metadata on the block opener.
+% This metadata is required for recognizing the content of this cell
+% as the abstract. The abstract should begin with a short description
+% of the problem addressed, briefly describe the new data or analyses,
+% then briefly state the main conclusion(s) and how they are supported, 
+% and address any uncertainty.
 
 +++
 ```
@@ -147,7 +153,7 @@ You can also cite directly using a DOI and add multiple `.bib` files if you need
 ## Authoring with Quarto
 
 ```{note}
-Contributions Welcome!
+Contributions Welcome
 ```
 
 ## Next Steps

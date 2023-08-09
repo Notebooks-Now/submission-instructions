@@ -26,7 +26,6 @@ parts:
       - file: authoring.md
       - file: environment.md
       - file: push-to-github.md
-      - file: pdf-preview.md
       - file: metadata.md
       - file: submitting.md
   - caption: Reference

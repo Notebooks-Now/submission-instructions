@@ -10,7 +10,7 @@ Submission templates are available via the [Notebooks Now! GitHub Organisation (
 
 ```
 
-🛠 Select one of the **full** templates depending on whether you are using MyST Markdown or Quarto for your submission.
+🛠 Select one of the **full** templates corresponding to the authoring tools you wish to use for your submission either MyST Markdown or Quarto.
 
 - 🔗 [Notebooks-Now/submission-myst-full](https://github.com/Notebooks-Now/submission-myst-full)
 - 🔗 [Notebooks-Now/submission-quarto-full](https://github.com/Notebooks-Now/submission-quarto-full)
@@ -21,7 +21,7 @@ Submission templates are available via the [Notebooks Now! GitHub Organisation (
 
 ```
 
-🛠 Enter the details for your new submission repository
+🛠 Enter the details for your new repository
 
 - Choose a unqiue name for the repository
 - Add a meaningful description
@@ -52,6 +52,6 @@ Add some information on how to get started with git in different ways? command l
 
 ### Next step
 
-You have created your own repository that you can start working in. The repository has example content, configutation files, an example executable environment and GitHub actions that automate preview builds of your content.
+You have created your own repository that you can start working in. The repository has example content, configuration files, an example executable environment and GitHub actions that automate preview builds of your content.
 
 Next, [learn about the structure of the repository](structure) and how you can customize it to fit your submission.

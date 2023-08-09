@@ -4,7 +4,7 @@ subject: Preparing your submission
 venue: Repository Structure
 ---
 
-A submission repository has a number of expected configuration files, content files and folder dependent on the authoring toolchain used, and if based on a template repository, will also contain a GitHub Actions workflow.
+A submission repository has a number of expected configuration files, content files and folders dependent on the authoring toolchain used, and if based on a template repository, will also contain GitHub Actions workflows.
 
 Let's review and get familar with the various elements.
 
@@ -49,7 +49,7 @@ Let's review and get familar with the various elements.
 : The main MyST configuration file - this configures the MyST project and [web based paper](https://mystmd.org/guide/quickstart-myst-websites#configuration) and is the place to add [frontmatter](https://mystmd.org/guide/frontmatter) including all scholarly metadata.
 
 `_toc.yml`
-: The table of contents definition file - this allows you to identify the root article (in this case `article.md`) and control the order that items appear in the table of contents. It is also possible to group items but groups may not be displayed in all web based themes. For help on customizing this see the [MyST Markdown documentation](https://mystmd.org/guide/table-of-contents).
+: The table of contents definition file - this allows you to identify the root article (in this case `article.md`) and control the order that items appear in the table of contents. It is also possible to group items but groups may not be displayed in all web based themes. For help on customizing this see the [Table of Contents](https://mystmd.org/guide/table-of-contents) in the MyST documentation.
 
 :::
 :::{tab-item} Quarto
