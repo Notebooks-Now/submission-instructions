@@ -1,6 +1,7 @@
 ---
 title: Contributing
 description: The AGU submission guide is a community resource that is open to contributions from the wider community.
+subject: Contributing
 ---
 
 The AGU submission guide is a community resource that is open to contributions from the wider community. Contribute by opening and issue or pull request with changes or additions. The license for the resource is `CC-BY-4.0`, which allows you to reuse portions of this work in other places with attribution to the AGU Notebooks Now! project.

@@ -5,7 +5,7 @@ subject: Introduction
 
 [Notebooks Now!](https://data.agu.org/notebooks-now/) is an AGU initiative to define standards and workflows for publishing with Computational Notebooks.
 
-The project is establishing Computational Notebook as a format for submission of research articles, further enabling reproducibility and interactivity within research publications, whilst making the notebook based format a first class part of the scientific record. As well as establishing the Notebook format as part of a submission, a machine readable approach is taken for all submission metadata.
+The project is establishing Computational Notebook as a format for submission of research articles, further enabling reproducibility and interactivity within research publications, whilst making the notebook based format a first class part of the scientific record. In addition, we suggest a machine readable approach is taken for all submission metadata and content.
 
 :::{figure} images/notebooks-now-listing-top.png
 Notebooks Now website for hosting and interacting with notebook submissions.
@@ -21,24 +21,7 @@ This resource is in the process of being built, and is not complete in all aspec
 
 Submissions are made by either providing a link to a public github repository or uploading a `.zip` file with the contents of your private repository. Although it's possible to put together your own repository with the minimum requirements for submission, there are a number of template repositories available as a starting point.
 
-To start with your submission using a template follow the [Getting Started Guide](getting-started.md).
-
-## What to expect
-
-Preparing your submission
-: writing
-
-Submission Process
-: submitting
-
-Automated checks
-: checks
-
-Automated Build
-: builds
-
-Review
-: reviewers
-
-Final Publication
-: you're published!
+:::{card} Getting Started 🚀
+:link: getting-started.md
+To start with your submission using a template follow the Getting Started Guide.
+:::

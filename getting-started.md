@@ -2,6 +2,7 @@
 title: Getting Started
 subject: Preparing your submission
 venue: Getting Started
+description: A guide to preparing your submission, from initial repository setup, and suggested authoring workflows as well as final submission checks and using the submission system.
 ---
 
 This guide will take you through the process of preparing your submission, from initial repository setup, through suggested authoring workflows to final submission checks and using the submission system.
