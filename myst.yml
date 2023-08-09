@@ -22,4 +22,5 @@ site:
   actions:
     - title: Learn More
       url: https://mystmd.org/guide
-  domains: []
+  domains:
+    - stevejpurves-nn_submission.curve.space
