@@ -32,5 +32,4 @@ parts:
     chapters:
       - file: why.md
       - file: templates.md
-      - file: reproducible-environments.md
       - file: best-practices.md
