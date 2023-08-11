@@ -1,11 +1,11 @@
 ---
-title: Notebooks Now Submission Guide
+title: Notebooks Now! Submission Guide
 subject: Introduction
 ---
 
-[Notebooks Now!](https://data.agu.org/notebooks-now/) is an AGU initiative to define standards and workflows for publishing with Computational Notebooks.
+[Notebooks Now!](https://data.agu.org/notebooks-now/) is a community-driven effort led by AGU under a grant from the Alfred P. Sloan Foundation to define standards and workflows for publishing with Computational Notebooks.
 
-The project is establishing Computational Notebook as a format for submission of research articles, further enabling reproducibility and interactivity within research publications, whilst making the notebook based format a first class part of the scientific record. In addition, we suggest a machine readable approach is taken for all submission metadata and content.
+The project is establishing Computational Notebook as a format for submission of research articles, further enabling reproducibility and interactivity within research publications, and elevating the notebook-based format as a primary element of the scientific record. In addition, we suggest a machine readable approach is taken for all submission metadata and content.
 
 :::{figure} images/notebooks-now-listing-top.png
 Notebooks Now website for hosting and interacting with notebook submissions.
