@@ -18,6 +18,10 @@
 format: jb-book
 root: index
 parts:
+  - caption: Overview
+    chapters:
+      - file: overview.md
+      - file: why.md
   - caption: Preparing your submission
     chapters:
       - file: getting-started.md
@@ -30,7 +34,6 @@ parts:
       - file: submitting.md
   - caption: Reference
     chapters:
-      - file: why.md
       - file: templates.md
       - file: best-practices.md
       - file: contributing.md

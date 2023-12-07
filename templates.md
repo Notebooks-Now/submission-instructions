@@ -3,19 +3,17 @@ title: Submission Templates
 subject: Reference
 ---
 
-The repository is expected to contain a [Reproducible Executation Environment Specification (REES)](https://repo2docker.readthedocs.io/en/latest/specification.html), the configuration files for your [MyST Markdown](https://mystmd.org) or [Quarto](https://quarto.org) project and your content (`.md`/`.qmd`/`.ipynb`), code, images and data files. For more guidance on preparing content and data see [Portable Notebooks](portability).
+The repository is expected to contain a [Reproducible Executation Environment Specification (REES)](https://repo2docker.readthedocs.io/en/latest/specification.html), the configuration files for your [MyST Markdown](https://mystmd.org) or [Quarto](https://quarto.org) project and your content (`.md`/`.qmd`/`.ipynb`), code, images and data files.
 
 The goal of these template repositories is to serve the same purpose as a $\LaTeX$ submission template: something that authors can copy, delete content, and replace with their notebooks, data and articles.
 
-These notebooks are submission instruction notebooks, and should follow the following constraints:
+Submission templates are available via the [Notebooks Now! GitHub Organization (github.com/Notebooks-Now)](https://github.com/Notebooks-Now).
 
-Metadata
-: Show all relevant metadata that is required for publishing.
+```{figure} images/agu-github-org.png
 
-Speed & Dependencies
-: The instruction notebooks should be portable across different systems and be fast to run. These notebooks should be able to run easily on Binder.
+```
 
-Realistic, but simple
-: The data and example content should resonate with a geoscientist, and also present a mix between submission instructions/features that are specific to AGU.
+🛠 Select one of the **full** templates corresponding to the authoring tools you wish to use for your submission, either MyST Markdown or Quarto.
 
-There are four different example repositories for Python-based content: first, with a single notebook as the paper (similar to many Earthcube submissions, but with simplified content); second, a markdown document with multiple associated notebooks that do different components of a scientific workflow (e.g. data-cleaning, interrogation, figure generation, etc.).
+- 🔗 [Notebooks-Now/submission-myst-full](https://github.com/Notebooks-Now/submission-myst-full)
+- 🔗 [Notebooks-Now/submission-quarto-full](https://github.com/Notebooks-Now/submission-quarto-full)

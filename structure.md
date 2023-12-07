@@ -6,7 +6,7 @@ venue: Repository Structure
 
 A submission repository has a number of expected configuration files, content files and folders dependent on the authoring toolchain used, and if based on a template repository, will also contain GitHub Actions workflows.
 
-Let's review and get familar with the various elements.
+Let's review and get familiar with the various elements.
 
 ## Toolchain specific elements
 
@@ -46,7 +46,7 @@ Let's review and get familar with the various elements.
 **MyST Markdown specific elements**
 
 `myst.yml`
-: The main MyST configuration file - this configures the MyST project and [web based paper](https://mystmd.org/guide/quickstart-myst-websites#configuration) and is the place to add [frontmatter](https://mystmd.org/guide/frontmatter) including all scholarly metadata.
+: The main MyST configuration file - this configures the MyST project and [web based paper](https://mystmd.org/guide/quickstart-myst-websites#configuration) and is the place to add [frontmatter](https://mystmd.org/guide/frontmatter) including all scholarly metadata, like the authors and their ORCIDs and affiliations, and the title and abstract.
 
 `_toc.yml`
 : The table of contents definition file - this allows you to identify the root article (in this case `article.md`) and control the order that items appear in the table of contents. It is also possible to group items but groups may not be displayed in all web based themes. For help on customizing this see the [Table of Contents](https://mystmd.org/guide/table-of-contents) in the MyST documentation.
@@ -127,7 +127,7 @@ The following elements are present independent of the authoring toolchain used i
 : The template repositories use a standard `conda` environment file for loading python dependencies. If you are using `python` and `conda` then we describe updating this file in [Environment](environment) otherwise any set of [Reproducible Execution Environment Specification (REES)](reproducible environments) files can be used to configure your repository as needed. REES ensures that any `binderhub` instance can provide a properly configured Jupyter server with required dependencies to reviewers and readers. (Note: the Quarto templates already include an additional REES files `apt.txt`, `postBuild`),
 
 `data/`
-: Whether to provide data files directly in your submission repository should be carefully considered versus publishing these separately in a suitable data repository. For more on this topic see [Best Practices](best-practices).
+: You may want to provide data files directly in your submission repository if they are needed for computations. These may be subsets or abstractions of the full data sets needed for generating figures, for example. Regardless, original data should be published separately in a suitable data repository. These and other data citations should be included in the reference section of the Notebook. For more on this topic see [Best Practices](best-practices).
 
 `.gitignore`
 : A standard git ignore file allowing you to exclude local files from your submission. This is useful if your scripts or notebooks generate additional temporary files when they are run, for example downloaded data files, temporary result files. Customize this file to fit your needs [by adding ignore patters](https://git-scm.com/docs/gitignore).
@@ -204,4 +204,4 @@ With both toolchains:
 
 ## Next Steps
 
-Now that you are familar with the contents of your repository, let's look at [the authoring environment](authoring) available for each toolchain and understand how to work locally with your content.
+Now that you are familiar with the contents of your repository, let's look at [the authoring environment](authoring) available for each toolchain and understand how to work locally with your content.
