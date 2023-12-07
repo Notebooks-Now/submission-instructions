@@ -4,13 +4,13 @@ subject: Preparing your submission
 venue: Repository Setup
 ---
 
-Submission templates are available via the [Notebooks Now! GitHub Organisation (github.com/Notebooks-Now)](https://github.com/Notebooks-Now).
+Submission templates are available via the [Notebooks Now! GitHub Organization (github.com/Notebooks-Now)](https://github.com/Notebooks-Now).
 
 ```{figure} images/agu-github-org.png
 
 ```
 
-🛠 Select one of the **full** templates corresponding to the authoring tools you wish to use for your submission either MyST Markdown or Quarto.
+🛠 Select one of the **full** templates corresponding to the authoring tools you wish to use for your submission, either MyST Markdown or Quarto.
 
 - 🔗 [Notebooks-Now/submission-myst-full](https://github.com/Notebooks-Now/submission-myst-full)
 - 🔗 [Notebooks-Now/submission-quarto-full](https://github.com/Notebooks-Now/submission-quarto-full)
@@ -23,9 +23,9 @@ Submission templates are available via the [Notebooks Now! GitHub Organisation (
 
 🛠 Enter the details for your new repository
 
-- Choose a unqiue name for the repository
+- Choose a unique name for the repository
 - Add a meaningful description
-- Mark the repository as **public** or **private**. Links to public repositories can be provided directly to the NN submission system, whilst private repositories will be submitted via a `.zip` file. Repositories on GitHub can be made public/private at a later time.
+- Mark the repository as **public** or **private**. Links to public repositories can be provided directly to the NN submission system, which will clone a copy, while private repositories will be submitted via a `.zip` file. Repositories on GitHub can be made public/private at a later time.
 
 ```{figure} images/create-repo-from-template.png
 
@@ -52,6 +52,6 @@ Add some information on how to get started with git in different ways? command l
 
 ### Next step
 
-You have created your own repository that you can start working in. The repository has example content, configuration files, an example executable environment and GitHub actions that automate preview builds of your content.
+You have now created your own repository that you can start working in. The repository has example content, configuration files, an example executable environment and GitHub actions that automate preview builds of your content.
 
 Next, [learn about the structure of the repository](structure) and how you can customize it to fit your submission.

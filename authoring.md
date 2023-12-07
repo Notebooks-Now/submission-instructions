@@ -15,7 +15,7 @@ This collaboration and the work by these groups has ensured that both toolchains
 
 ## Authoring Content
 
-Each toolchain has different Markdown flavours and authoring can be carried out in a variety editors, for a full treatment refer to the documentation for each tool ([MyST](https://mystmd.org/guide/quickstart-myst-documents), [Quarto](https://quarto.org/docs/manuscripts/)). Here we include a brief explanation of how to setup and what to expect from the local editing experience in each case.
+Each toolchain has different Markdown flavors and authoring can be carried out in a variety editors. For a full treatment refer to the documentation for each tool ([MyST](https://mystmd.org/guide/quickstart-myst-documents), [Quarto](https://quarto.org/docs/manuscripts/)). Here we include a brief explanation of how to setup each tool and what to expect from the local editing experience in each case.
 
 ::::{tab-set}
 :::{tab-item} MyST Markdown
@@ -60,13 +60,13 @@ A local preview of the sample paper from the submission template, displayed in t
 :::
 ::::
 
-As long as your development server is running changes to any `.md`, `.ipynb` or configuration files will be reflected immediately in the preview, giving your a view on your final manuscript that is updated in real time ⚡️. Make changes to any of these files using the editor or IDE of your choice.
+As long as your development server is running changes to any `.md`, `.ipynb` or configuration files, all edits will be reflected immediately in the preview, giving you a view of your final manuscript that is updated in real time ⚡️. Make changes to any of these files using the editor or IDE of your choice.
 
 ## Adding Content
 
 At this stage you're able to replace the sample template content with your own manuscript and notebooks.
 
-The contents of `article.md` can also be replaced but in doing so you should take note of the existing document structure (i.e. headings like data availability!).
+The contents of `article.md` can also be replaced, but in doing so you should take note of the existing document structure (i.e. headings like data availability!).
 
 In MyST, new files need to be added to the `_toc.yml` ([docs](https://mystmd.org/guide/table-of-contents)). In order to work on your notebooks reliably within the repository you should also setup your [Execution Environment](./environment.md), which we'll cover in the next step.
 
@@ -84,7 +84,7 @@ license: CC-BY-4.0
 ---
 ```
 
-Consider updating the existing frontmatter section to reflect you new submission's metadata. Learn more about valid frontmatter fields in [MyST](https://mystmd.org/guide/frontmatter) and [Quarto](https://quarto.org/docs/authoring/front-matter.html).
+Consider updating the existing frontmatter section to reflect your new submission's metadata. Learn more about valid frontmatter fields in [MyST](https://mystmd.org/guide/frontmatter) and [Quarto](https://quarto.org/docs/authoring/front-matter.html).
 
 ### Abstract
 
@@ -124,13 +124,13 @@ abstract: |
 
 ### References
 
-Replace the contents of `references.bib` with `bibtex` for all of your citations. Usually, you can export a `bibtex` file directly from your reference management software. Once populated it is easy to add citations to you manuscript using the `bibtex` tags.
+Replace the contents of `references.bib` with `bibtex` for all of your citations. Usually, you can export a `bibtex` file directly from your reference management software. Once populated it is easy to add citations to your manuscript using the `bibtex` tags.
 
 You can also cite directly using a DOI and add multiple `.bib` files if you need them. Read more about [citations in MyST here](https://mystmd.org/guide/citations) and [citations in Quarto](https://quarto.org/docs/authoring/footnotes-and-citations).
 
 ## Writing in Jupyter Lab
 
-Writing a manuscript can be easily achieved using any text editor, and the uncluttered experience of a simple editor is often preferred when writing. Working with notebooks themselves is best carried out in a Jupyter client such as Jupyter Lab. Both MyST and Quarto have a Jupyter Lab extensions.
+Writing a manuscript can be easily achieved using any text editor. Working with notebooks themselves is best carried out in a Jupyter client such as Jupyter Lab. Both MyST and Quarto have a Jupyter Lab extensions.
 
 ::::{tab-set}
 :::{tab-item} MyST Markdown
@@ -145,7 +145,7 @@ To learn more about installing and using the extension, see [the instructions](h
 :::
 ::::
 
-The extensions enables MyST Markdown or Quarto to be used directly in the markdown cells with Notebooks to be rendered correctly, and shows a fast rendered preview of your documents. This means you can do a significant amount of your authoring in Jupyter Lab alone.
+The extensions enables MyST Markdown or Quarto to be used directly in the markdown cells of Notebooks, and shows a fast rendered preview of your documents. This means you can do a significant amount of your authoring in Jupyter Lab alone.
 
 Next start Jupyter Lab for Notebook development:
 
@@ -156,7 +156,7 @@ cd my-nn-submission
 jupyter lab
 ```
 
-This will start Jupyter Lab in the same directory as your development server, which is desired and any changes made to your notebooks in Jupyter Lab will be reflected immediately in your manuscript preview.
+This will start Jupyter Lab in the same directory as your development server, which is desired, and any changes made to your notebooks in Jupyter Lab will be reflected immediately in your manuscript preview.
 
 ```{figure} images/jupyterlab-myst.webp
 A Notebook with frontmatter and MyST Markdown rendered in Jupyter Lab.
@@ -164,4 +164,4 @@ A Notebook with frontmatter and MyST Markdown rendered in Jupyter Lab.
 
 ## Next Steps
 
-Now that your able to add your content to the repository via your text editor or Jupyter Lab, it's time to think about your setting up and codifying a local execution environment. [We'll cover that in the next step](environment) as this not only helps you work more reliably whilst you are authoring, but is essential in creating a fully reproducible execution environment that will work on any computer.
+Now that you are able to add your content to the repository via your text editor or Jupyter Lab, it's time to think about your setting up and codifying a local execution environment. [We'll cover that in the next step](environment) as this not only helps you work more reliably while you are authoring, but is essential in creating a fully reproducible execution environment that will work on any computer.
