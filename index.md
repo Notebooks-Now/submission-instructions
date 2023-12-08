@@ -7,7 +7,7 @@ subject: Introduction
 
 Computational notebooks are an exciting and powerful format for scholarly communication. They are already being widely used by researchers across disciplines for enabling, organizing and improving the efficiency of their work, and for sharing it informally. They integrate text, data, and a variety of code, as well as other linked notebooks, in an executable format, allowing new functionality in publishing, such as dynamic graphics and embedded simulations natively. Their structured format, open source code base, integration with open infrastructure, and growing tools and resources allows increased functionality for readers and further crowd-sourced innovation. Notebooks allow for greatly increased transparency and reproducibility of research results, and makes the reuse or research much easier and deeper. See [Why Notebooks](./why.md) for more.
 
-:::{card} Notebooks Now! The Future of Reproducible Research
+:::{card} 📄 Notebooks Now! The Future of Reproducible Research
 :link: https://doi.org/10.1029/2023EA003458
 Read the paper where we introduce a new ambitious project led by AGU in collaboration with Wiley and Curvenote and a team of geoscientists, computer and data scientists.
 :::
