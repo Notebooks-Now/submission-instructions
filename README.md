@@ -2,7 +2,7 @@
 
 Documentation for authors submitted Notebook based publications via Notebooks Now!
 
-https://agu-submission.curve.space/
+https://agu.curve.space
 
 ## Contributing
 
