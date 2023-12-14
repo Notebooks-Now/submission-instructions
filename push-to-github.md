@@ -14,11 +14,40 @@ This workflow will be run on repository creation and on every subsequent commit 
 
 Where the first run is listed and marked as failing. In order to publish the preview of your manuscript as a website GitHub pages must be enabled on your repository.
 
+::::{tab-set}
+:::{tab-item} MyST Markdown
+
 🛠 To enable GitHub pages, go to `Settings`, and select `Pages` from the left hand sidebar. Then set `Source` to `GitHub Actions`.
 
 ```{figure} images/github-enable-pages.png
 Enable GitHub pages on your repository.
 ```
+:::
+
+:::{tab-item} Quarto
+
+The template manuscript is configured with a GitHub Action in .github/workflows/publish.yml. This action is triggered when there is a push to the main branch; it renders your manuscript and puts the manuscript website source on the gh-pages branch.
+
+🛠 To ensure the action has permission to write to the gh-pages branch, you’ll need to make one change to your repository settings. Go to your repository and navigate to: Settings > Actions > General > Workflow Permissions. Check the “Read and Write Permissions” box.
+
+```{figure} images/quarto-github-action-setting.png
+Enable proper workflow permissions for publishing
+```
+
+Once you have enabled these workflow permissions, use the `quarto publish` to publish your manuscript to Github pages. You will only need to do this once (any edits you make after this initial publication will automatically be published).
+
+In the terminal, from the root of your manuscript project:
+
+```{code-block} bash
+quarto publish
+```
+
+Select `Github Pages` from the list of publishing targets. After confirmation, your document will be rendered and published.
+
+:::
+::::
+
+
 
 🛠 To trigger a rebuild push a new commit to `main`
 
