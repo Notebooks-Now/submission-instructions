@@ -4,18 +4,18 @@ subject: Preparing your submission
 venue: Authoring
 ---
 
-Submissions in the Notebooks Now! format can be prepared using either of two popular open source toolchains [MyST Markdown](https://mystmd.org) and [Quarto](https://quarto.org). The submission system can recognize the configuration information of each tool and build the manuscript, PDFs and other publishing assets automatically.
+Submissions in the Notebooks Now! format can be prepared using either of two popular open-source toolchains [MyST Markdown](https://mystmd.org) and [Quarto](https://quarto.org). The submission system can recognize the configuration information of each tool and build the manuscript, PDFs and other publishing assets automatically.
 
 ```{note} Collaborative Open Source Development
 :class: dropdown
-During the Notebooks Now! initial phase members of the teams behind MyST Markdown ([Executable Books](https://executablebooks.org), [Curvenote](https://curvenote.com)) and Quarto ([Posit](https://posit.co)) participated in a number of working groups, collaborating together and with others to converge on a common output format for notebook based scientific articles.
+During the Notebooks Now! initial phase, members of the teams behind MyST Markdown ([Executable Books](https://executablebooks.org), [Curvenote](https://curvenote.com)) and Quarto ([Posit](https://posit.co)) participated in a number of working groups, collaborating together and with others to converge on a common output format for notebook-based scientific articles.
 
 This collaboration and the work by these groups has ensured that both toolchains can be used to create the correct assets required for modern notebook publishing. See [Notebooks in Publishing](https://notebooks_now.curve.space/jats) for details on that collaborative work.
 ```
 
 ## Authoring Content
 
-Each toolchain has different Markdown flavors and authoring can be carried out in a variety editors. For a full treatment refer to the documentation for each tool ([MyST](https://mystmd.org/guide/quickstart-myst-documents), [Quarto](https://quarto.org/docs/manuscripts/)). Here we include a brief explanation of how to setup each tool and what to expect from the local editing experience in each case.
+Each toolchain has different Markdown flavors and authoring can be carried out in a variety of editors. For a full treatment, refer to the documentation for each tool ([MyST](https://mystmd.org/guide/quickstart-myst-documents), [Quarto](https://quarto.org/docs/manuscripts/)). Here we include a brief explanation of how to set up each tool and what to expect from the local editing experience in each case.
 
 ::::{tab-set}
 :::{tab-item} MyST Markdown
@@ -27,11 +27,11 @@ Authoring with MyST Markdown relies on a command line tool `mystmd` and optional
 🛠 To confirm your installation was successful, run:
 
 ```bash
-mystmd -v
->> v1.1.9
+myst -v
+>> v1.1.37
 ```
 
-🛠 To start the authoring environment and get a live preview of your manuscript in the browser, run:
+🛠 To start the authoring environment and get a live preview of your manuscript in the browser, run (replace `my-nn-submission` with the name of your repository set up from the template):
 
 ```bash
 cd my-nn-submission
@@ -68,7 +68,7 @@ At this stage you're able to replace the sample template content with your own m
 
 The contents of `article.md` can also be replaced, but in doing so you should take note of the existing document structure (i.e. headings like data availability!).
 
-In MyST, new files need to be added to the `_toc.yml` ([docs](https://mystmd.org/guide/table-of-contents)). In order to work on your notebooks reliably within the repository you should also setup your [Execution Environment](./environment.md), which we'll cover in the next step.
+In MyST, new files need to be added to the `_toc.yml` ([docs](https://mystmd.org/guide/table-of-contents)). In order to work on your notebooks reliably within the repository, you should also set up your [Execution Environment](./environment.md), which we'll cover in the next step.
 
 ### Frontmatter
 
@@ -124,7 +124,7 @@ abstract: |
 
 ### References
 
-Replace the contents of `references.bib` with `bibtex` for all of your citations. Usually, you can export a `bibtex` file directly from your reference management software. Once populated it is easy to add citations to your manuscript using the `bibtex` tags.
+Replace the contents of `references.bib` with `bibtex` for all of your citations. Usually, you can export a `bibtex` file directly from your reference management software. Once populated, it is easy to add citations to your manuscript using the `bibtex` tags.
 
 You can also cite directly using a DOI and add multiple `.bib` files if you need them. Read more about [citations in MyST here](https://mystmd.org/guide/citations) and [citations in Quarto](https://quarto.org/docs/authoring/footnotes-and-citations).
 
@@ -164,4 +164,4 @@ A Notebook with frontmatter and MyST Markdown rendered in Jupyter Lab.
 
 ## Next Steps
 
-Now that you are able to add your content to the repository via your text editor or Jupyter Lab, it's time to think about your setting up and codifying a local execution environment. [We'll cover that in the next step](environment) as this not only helps you work more reliably while you are authoring, but is essential in creating a fully reproducible execution environment that will work on any computer.
+Now that you are able to add your content to the repository via your text editor or Jupyter Lab, it's time to think about setting up and codifying a local execution environment. [We'll cover that in the next step](environment), as this not only helps you work more reliably while you are authoring, but is essential in creating a fully reproducible execution environment that will work on any computer.
