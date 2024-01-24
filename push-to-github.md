@@ -38,7 +38,7 @@ Once you have enabled these workflow permissions, use the `quarto publish` to pu
 
 In the terminal, from the root of your manuscript project:
 
-```{code-block} bash
+```bash
 quarto publish
 ```
 
