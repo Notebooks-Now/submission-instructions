@@ -12,7 +12,7 @@ This workflow will be run on repository creation and on every subsequent commit 
 
 ```
 
-Where the first run is listed and marked as failing. In order to publish the preview of your manuscript as a website GitHub pages must be enabled on your repository.
+Where the first run is listed and marked as failing. In order to publish the preview of your manuscript as a website, GitHub pages must be enabled on your repository.
 
 🛠 To enable GitHub pages, go to `Settings`, and select `Pages` from the left hand sidebar. Then set `Source` to `GitHub Actions`.
 
@@ -20,7 +20,7 @@ Where the first run is listed and marked as failing. In order to publish the pre
 Enable GitHub pages on your repository.
 ```
 
-🛠 To trigger a rebuild push a new commit to `main`
+🛠 To trigger a rebuild, push a new commit to `main`.
 
 A second workflow run will appear and after a time, will complete and turn green ✅.
 
@@ -38,10 +38,10 @@ Preview of your website using MyST Markdown.
 
 You should see the primary (root) manuscript and be able to access all the notebooks and additional mardkown files under the `SUPPORTING DOCUMENTS` listing.
 
-A draft PDF in AGU format can also be downloaded as well as the other publishing specific artifacts (JATS, MECA).
+A draft PDF in AGU format can also be downloaded as well as the other publishing-specific artifacts (JATS, MECA).
 
 ## Next Steps
 
 These preview builds will be run each time you commit to `main` allowing you to share the draft URL with collaborators and examine the PDF output without having to convert to LaTeX and build your manuscript locally.
 
-Once you're manuscript is ready the next step is to [submit to the Notebooks Now! system for final checking and acceptance](submitting).
+Once your manuscript is ready, the next step is to [submit to the Notebooks Now! system for final checking and acceptance](submitting).

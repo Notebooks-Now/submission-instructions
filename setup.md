@@ -15,13 +15,13 @@ Submission templates are available via the [Notebooks Now! GitHub Organization (
 - 🔗 [Notebooks-Now/submission-myst-full](https://github.com/Notebooks-Now/submission-myst-full)
 - 🔗 [Notebooks-Now/submission-quarto-full](https://github.com/Notebooks-Now/submission-quarto-full)
 
-🛠 To create your own submission repository on GitHub, click `Use This Template` and select `Create a new repository`
+🛠 To create your own submission repository on GitHub, click `Use This Template` and select `Create a new repository`.
 
 ```{figure} images/myst-full-create-repo.png
 
 ```
 
-🛠 Enter the details for your new repository
+🛠 Enter the details for your new repository.
 
 - Choose a unique name for the repository
 - Add a meaningful description
@@ -31,13 +31,13 @@ Submission templates are available via the [Notebooks Now! GitHub Organization (
 
 ```
 
-🪄 The new repository is now available in your GitHub account
+🪄 The new repository is now available in your GitHub account.
 
 ```{figure} images/new-nn-repo.png
 
 ```
 
-🛠 Make a local working copy of your repository
+🛠 Make a local working copy of your repository.
 
 How you create a local clone of your repository depends on how you are used to working with `git`. Assuming that you are using the `git` command line and have `ssh` configured:
 
