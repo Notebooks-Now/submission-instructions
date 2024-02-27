@@ -20,7 +20,7 @@ root: index
 parts:
   - caption: Overview
     chapters:
-      - file: introduction.md
+      - file: overview.md
       - file: why.md
       - file: preparing.md
       - file: published.md
