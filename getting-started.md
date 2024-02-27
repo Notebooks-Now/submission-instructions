@@ -5,9 +5,7 @@ venue: Getting Started
 description: A guide to preparing your submission, from initial repository setup, and suggested authoring workflows as well as final submission checks and using the submission system.
 ---
 
-This guide will take you through the process of preparing your submission, from initial repository setup, through suggested authoring workflows, to final submission checks and using the submission system.
-
-Authors should be familiar with Notebooks, GitHub, and LaTeX.
+Authors should be familiar with Notebooks, GitHub, and a supported authoring environment (MyST, Quarto).
 
 You will use one of the templates available in the [Notebooks Now GitHub Organization](https://github.com/notebooks-now). There are templates for single notebook submissions ("lite") and Markdown-based manuscript submissions with linked notebooks ("full") for each of the supported tool chains. The goal of these template repositories is to serve the same purpose as a $\LaTeX$ submission template: something that authors can copy, delete content, and replace with their notebooks, data and articles.
 

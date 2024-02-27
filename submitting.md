@@ -25,7 +25,7 @@ You'll see immediate feedback on these checks and will be able to address any th
 To finalize your submission, you will need to:
 
 1. Select the journal and complete the file transfer to their peer-review system.
-2. Log into that journal system and complete the submission. Much of the data for the submission will be automatically transferred, as well as a LaTeX and PDF file for editors and reviewers, and a secure link to the Notebook; however, some additional information will be required by the journal, such as suggested reviewers, conflict of interest statements, and a few more. Upon submission to the journal system, you will receive a confirmation email with further instructions.
+2. Log into that journal system and complete the submission. Much of the data for the submission will be automatically transferred, as well as a LaTeX and PDF file for editors and reviewers, and a secure link to the Notebook; however, some additional information will be required by the journal, such as suggested reviewers, conflict of interest statements, and a few more. Be sure to read and follow the submission requirements for that journal (see [links in the introduction](introduction.md)). Upon submission to the journal system, you will receive a confirmation email with further instructions.
 
 Note that this link is only for new submissions. For revisions, after peer review, you will need to:
 
