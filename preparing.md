@@ -36,7 +36,7 @@ You can submit your notebook (clicking the “submit” link below) by either pr
 As notebooks are submitted and published, we hope to collect additional shared resources for adding functionality in figures, animations, and more.
 
 :::{tip} Submit Your Notebook
-In the first half of 2024, Curvenote will helping authors to finalize and submit their notebooks to the platform directly manually. If you are making a submission and are unsure how to submit, please reach out to the editor or email support@curvenote.com directly.
+In the first half of 2024, Curvenote will helping authors to finalize and submit their notebooks to the platform manually. If you are making a submission and are unsure how to submit, please reach out to the editor or email support@curvenote.com directly.
 
 In the second half of 2024, a link to the submission system will be available here.
 :::
