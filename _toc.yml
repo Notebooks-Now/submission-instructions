@@ -22,6 +22,8 @@ parts:
     chapters:
       - file: overview.md
       - file: why.md
+      - file: preparing.md
+      - file: published.md
   - caption: Preparing your submission
     chapters:
       - file: getting-started.md
